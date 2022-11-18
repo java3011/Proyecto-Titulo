@@ -1,0 +1,121 @@
+/*Header*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: black;
+    text-decoration: solid;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+
+/*Navegacion*/
+
+.nav-main {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-brand {
+    width: 60px;
+}
+
+
+/*Navegador izquierdo*/
+
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: -10px;
+}
+
+.nav-main ul li a {
+    padding: -10px;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 2px;
+}
+
+
+/*Containers*/
+
+.containers {
+    text-align: center;
+    border: 2px solid rgb(170, 165, 165);
+    background-color: rgb(224, 213, 213);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 60px;
+}
+
+.formulario {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.formulario h2 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario ul li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formulario ul li input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formulario ul li .btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnS {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    background: rgb(224, 213, 213);
+    border: rgb(224, 213, 213);
+}
+
+.btnS:hover {
+    opacity: .5;
+}

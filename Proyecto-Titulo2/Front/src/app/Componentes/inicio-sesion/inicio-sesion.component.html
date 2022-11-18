@@ -1,0 +1,43 @@
+<!--Pagina de inicio de sesion de las secretarias previamente completado su registro-->
+<header>
+    <div class="container">
+        <nav class="nav-main">
+            <a href="#"><img src="../../../assets/Captura de pantalla 2022-06-14 012517.png" alt="Centro Logo" class="nav-brand"></a>
+            <ul class="nav-menu">
+                <li>
+                    <h2><a href="#">Centro Médico Cubano</a></h2>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<hr>
+<br>
+<div class="containers">
+    <form class="formulario">
+        <ul>
+            <h2>Inicio de Sesión</h2>
+            <br>
+            <br>
+            <li>
+                <label for="">Nombre Usuario</label>
+                <br>
+                <input type="text" placeholder="Ingrese usuario...">
+            </li>
+            <br>
+            <li>
+                <label for="">Contraseña</label>
+                <br>
+                <input type="password" placeholder="Ingrese contraseña...">
+            </li>
+            <br>
+            <li>
+                <button (click)="next()" class="btn">Ingresar</button>
+            </li>
+        </ul>
+    </form>
+    <br>
+    <button (click)="siguiente()" class="btnS">Registrarse</button>
+</div>
+<br>

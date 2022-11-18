@@ -1,0 +1,58 @@
+<!--Pagina que va a permitir agregar, modificar y eliminar todos los datos de los profesionales-->
+<header>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="../../../assets/Captura de pantalla 2022-06-14 012517.png" alt="Centro Logo" class="nav-brand">
+            <ul class="nav-menu">
+                <!--li>
+                    <a (click)="primero()">Agenda</a>
+                </li>-->
+                <li>
+                    <a (click)="segundo()">Profesionales</a>
+                </li>
+                <li>
+                    <a (click)="tercero()">Reservas</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-cerrar">
+                <li>
+                    <a (click)="cuarto()">Cerrar sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+</header>
+
+<section>
+    <h2>Listado de Profesionales</h2>
+    <div class="container2">
+        <input matInput placeholder="Búsqueda">
+        <button class="btn3">Agregar</button>
+        <table class="tabla">
+            <thead>
+                <tr class="texto">
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Rut</th>
+                    <th>Rango Consultas</th>
+                    <th>Especialidad</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="texto">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="">Editar</button>
+                        <button type="">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

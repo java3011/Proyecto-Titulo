@@ -1,0 +1,67 @@
+<!--Pagina que se encargara de mostrar a traves de una lista todas las reservas, 
+    ademas va a permitir modificar, crear y eliminar las reservas-->
+<header>
+    <div class="container">
+        <nav class="nav-main">
+            <img src="../../../assets/Captura de pantalla 2022-06-14 012517.png" alt="Centro Logo" class="nav-brand">
+            <ul class="nav-menu">
+                <!--<li>
+                    <a (click)="primero()">Agenda</a>
+                </li>-->
+                <li>
+                    <a (click)="segundo()">Profesionales</a>
+                </li>
+                <li>
+                    <a (click)="tercero()">Reservas</a>
+                </li>
+            </ul>
+            <ul class="nav-menu-cerrar">
+                <li>
+                    <a (click)="cuarto()">Cerrar sesión</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+    </div>
+</header>
+
+<section>
+    <h2>Listado de reservas</h2>
+    <div class="container2">
+        <input matInput placeholder="Búsqueda">
+        <button class="btn3">Agregar</button>
+        <table class="tabla">
+            <thead>
+                <tr class="texto">
+                    <th>N°</th>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Rut</th>
+                    <th>Dia de la reserva</th>
+                    <th>Hora de la reserva</th>
+                    <th>Profesional</th>
+                    <th>Prevención</th>
+                    <th>Confirmación</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="texto">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <button type="">Editar</button>
+                        <button type="">Eliminar</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
