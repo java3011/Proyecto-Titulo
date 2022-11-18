@@ -1,0 +1,66 @@
+.new-cards {
+    color: #070707;
+    gap: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(199, 196, 196);
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 5px;
+}
+
+.new-cards h2 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.formulario1 ul li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.formulario1 ul li label {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+}
+
+.formulario1 ul li #casi {
+    margin-right: 56px;
+}
+
+.formulario1 ul li input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+.formulario1 ul li select {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    padding-right: 30px;
+}
+
+.btn {
+    padding-left: 50px;
+}
+
+.btn button {
+    margin: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

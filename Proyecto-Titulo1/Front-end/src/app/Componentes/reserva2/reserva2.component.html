@@ -1,0 +1,29 @@
+<div class="new-cards">
+    <h2>2. Seleccionar especialidad</h2>
+    <form [formGroup]="formulario2">
+        <div class="formulario2">
+            <ul>
+                <li>
+                    <label for="centro">Centro de atención</label>
+                    <br>
+                    <select formControlName="centro" id="">
+                        <option value="1">Centro Médico Viña del Mar</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="especialidad" id="casi">Tipo de especialidad</label>
+                    <br>
+                    <select formControlName="especialidad" id="casi2">
+                        <option value="1">Psicologia</option>
+                        <option value="2">Medicina General</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="btn ">
+            <button (click)="navegar() ">Ingresar otro rut</button>
+            <button type="submit ">Guardar</button>
+            <button (click)="siguiente() ">Buscar Horas</button>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,26 @@
+<div class="new-cards">
+    <h2>1. Indentificación del paciente</h2>
+    <form [formGroup]="formulario">
+        <div class="formulario1">
+            <ul>
+                <li>
+                    <label for="carnet">Tipo de documento</label>
+                    <br>
+                    <select formControlName="carnet" id="carnet">
+                        <option value="1">Carnet de Indentidad</option>
+                        <option value="2">Pasaporte</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="rut" id="casi">RUT del paciente</label>
+                    <br>
+                    <input type="text" formControlName="rut" placeholder="Ej:5.652.654-0">
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button type="submit">Guardar</button>
+            <button (click)="continuar()">Siguiente</button>
+        </div>
+    </form>
+</div>

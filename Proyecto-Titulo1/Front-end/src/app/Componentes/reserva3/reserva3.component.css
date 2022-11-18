@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+.new-cards {
+  color: #070707;
+  gap: 25px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background: #c7c4c4;
+  border: 1px solid black;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-bottom: 5px;
+}
+
+.new-cards h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.bodys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 40px 10px;
+}
+
+.current-date {
+  font-size: 1.45rem;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.icons span {
+  height: 38px;
+  width: 38px;
+  margin: 0 4px;
+  font-size: 1.9rem;
+  cursor: pointer;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  color: #3f961d;
+}
+
+.icons span:hover {
+  background: #98ca98;
+}
+
+.icons span:last-child {
+  margin-right: -10px;
+}
+
+.wrapper {
+  width: 450px;
+  background: #f0eded;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 380px;
+  border-radius: 10px;
+}
+
+.calendar {
+  padding-right: 10px;
+  margin-right: 30px;
+}
+
+.calendar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.calendar ul li {
+  position: relative;
+  width: calc(100%/7);
+}
+
+.calendar .weeks li {
+  font-weight: 500;
+}
+
+.calendar .days {
+  margin-bottom: 10px;
+}
+
+.calendar .days li {
+  margin-top: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.days li.inactive {
+  color: #aaa;
+}
+
+.days li.active {
+  color: #fff;
+}
+
+.calendar .days li::before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.calendar .days li:hover::before {
+  background: #65d165;
+}
+
+.days li.active::before {
+  background: #c53535;
+}
+
+.formulario3 ul li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding-left: 10px;
+}
+
+.btn button {
+  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*# sourceMappingURL=reserva3.component.css.map */

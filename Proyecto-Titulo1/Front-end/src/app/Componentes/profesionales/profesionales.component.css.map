@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "profesionales.component.scss"
+    ],
+    "names": [],
+    "file": "profesionales.component.css"
+}

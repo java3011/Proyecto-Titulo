@@ -1,0 +1,49 @@
+<div class="new-cards">
+    <h2>4. Ingresar datos</h2>
+    <form>
+        <div class="formulario4">
+            <ul>
+                <li>
+                    <label for="celular" id="casi1">Número de contacto:</label>
+                    <br>
+                    <input type="number" formControlName="number" id="numero">
+                </li>
+                <li>
+                    <label for="correo">Correo electrónico:</label>
+                    <br>
+                    <input type="mail" formControlName="mail" id="correo" placeholder="Ej: example@mail.com">
+                </li>
+                <li>
+                    <label for="direccion" id="casi2">Ingrese su dirección:</label>
+                    <br>
+                    <input type="text" formControlName="direccion" id="" placeholder="Ej: Av. Altamirano, Calle 125">
+                </li>
+                <li>
+                    <label for="comuna" id="casi3">Ingrese comuna residente:</label>
+                    <br>
+                    <select formControlName="comuna" id="">
+                        <option value="1">Viña del Mar</option>
+                        <option value="2">Valparaiso</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="prevencion" id="casi4">Ingrese prevención:</label>
+                    <br>
+                    <select formControlName="prevencion" id="casi5">
+                        <option value="1">Fonasa</option>
+                        <option value="2">Isapre</option>
+                        <option value="3">Otro</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button (click)="navegar()">Volver elegir día y hora</button>
+            <button type="submit">Guardar</button>
+            <button (click)="siguiente()">Siguiente</button>
+        </div>
+    </form>
+    <!-- <div>
+        
+    </div>-->
+</div>

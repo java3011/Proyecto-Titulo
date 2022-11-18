@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAC;EACC,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,CAAC,CAAC;EACE,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "saludo.component.scss"
+    ],
+    "names": [],
+    "file": "saludo.component.css"
+}
